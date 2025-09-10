@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard IoT - ThingSpeak</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 30px; background-color: #f0f4f8; }
+        h1 { color: #333; }
+        .metric { font-size: 24px; margin: 20px 0; }
+        .plotly-graph-div { margin-bottom: 50px; }
+        .insight { font-size: 18px; color: #555; margin-bottom: 30px; }
+    </style>
+</head>
+<body>
+    <h1>📡 Dashboard IoT - Umidade e Temperatura</h1>
+
+    <div class="metric">Temperatura Atual: <strong>{{ last_temp }} °C</strong></div>
+    <div class="metric">Umidade Atual: <strong>{{ last_umidade }} %</strong></div>
+
+    <div class="insight">
+        Este painel mostra a evolução da temperatura e da umidade com gráficos visuais e comparativos. A área vermelha indica variações térmicas, enquanto as barras azuis destacam os níveis de umidade.
+    </div>
+
+    <div>
+        {{ dashboard_plot | safe }}
+    </div>
+</body>
+</html>
