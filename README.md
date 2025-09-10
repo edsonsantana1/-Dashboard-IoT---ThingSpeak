@@ -19,12 +19,12 @@ cd dashboard_iot
 
 ### 2. Instale as dependências
 
-- **pip install -r requirements.txt
+- **pip install** -r requirements.txt
 
 ### 3. Execute o servidor Flask
 
-- **python app.py
+- **python app.py**
 
 ### 4. Acesse no navegador
 
-- **http://127.0.0.1:5000/
+- **http://127.0.0.1:5000/**
