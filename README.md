@@ -1,4 +1,4 @@
-# 🌡️ Dashboard IoT - ThingSpeak
+## 🌡️ Dashboard IoT - ThingSpeak
 
 Dashboard com Flask e Plotly para visualizar temperatura e umidade em tempo real via ThingSpeak.
 
@@ -12,16 +12,16 @@ Dashboard com Flask e Plotly para visualizar temperatura e umidade em tempo real
 
 ## 🚀 Como Rodar o Projeto
 
-### 1. Clone ou baixe o projeto
+## 1. Clone ou baixe o projeto
 
 git clone https://github.com/edsonsantana1/-Dashboard-IoT---ThingSpeak.git
 cd dashboard_iot 
 
-### 2. Instale as dependências
+## 2. Instale as dependências
 
 - **pip install** -r requirements.txt
 
-### 3. Execute o servidor Flask
+## 3. Execute o servidor Flask
 
 - **python app.py**
 
